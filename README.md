@@ -63,7 +63,7 @@ https://github.com/user-attachments/assets/caf65f87-5998-4232-a1ce-6ba291b9cb60
 
 **Humidity Trends Over Time**
    
-<img width="614" alt="Screenshot 2024-12-06 at 10 27 22 AM" src="https://github.com/user-attachments/assets/dca8c3bf-eb41-4afb-8b6a-055f75129eda">
+![image](https://github.com/user-attachments/assets/1f338092-7a1f-4de4-9fbe-6bcc4be53378)
    
 **Query:** _SELECT MEAN(HumidityPercentage) FROM data GROUP BY time(1m)_
    
@@ -75,7 +75,7 @@ https://github.com/user-attachments/assets/caf65f87-5998-4232-a1ce-6ba291b9cb60
 
 **Average Heat Index by Weather Condition**
 
-<img width="632" alt="Screenshot 2024-12-06 at 10 41 11 AM" src="https://github.com/user-attachments/assets/f509d185-8018-484a-8c09-4dfafcbb1212">
+![image](https://github.com/user-attachments/assets/269410fd-fb5b-4644-87cc-99632118404e)
 
 **Query:** _SELECT MEAN(HeatIndex) FROM data GROUP BY condition_
    
@@ -86,8 +86,8 @@ https://github.com/user-attachments/assets/caf65f87-5998-4232-a1ce-6ba291b9cb60
 3. What is the average temperature when humidity percentage is greater than 40?
 
 **Average Temperature Over Time**
-  
-<img width="627" alt="Screenshot 2024-12-06 at 11 06 06 AM" src="https://github.com/user-attachments/assets/395e7e1a-4296-464a-98f1-1ef76650b62e">
+
+![image](https://github.com/user-attachments/assets/f132f29d-178b-472d-8e3c-d5c16f8f2641)
 
 **Query:** _SELECT MEAN(temperature) FROM data GROUP BY time(1m)_
    
@@ -99,7 +99,7 @@ https://github.com/user-attachments/assets/caf65f87-5998-4232-a1ce-6ba291b9cb60
  
 **Average visibility by cloud cover type**
 
-<img width="628" alt="Screenshot 2024-12-06 at 11 13 30 AM" src="https://github.com/user-attachments/assets/0c80632c-5b58-4a93-9607-e5df7e05f126">
+![image](https://github.com/user-attachments/assets/74078b78-d58b-457d-87c0-a20283ac72f6)
 
 **Query:** _SELECT MEAN(visibility) FROM data GROUP BY clouds_
    
@@ -111,7 +111,7 @@ https://github.com/user-attachments/assets/caf65f87-5998-4232-a1ce-6ba291b9cb60
 
 **Correlation Between Wind Speed and Visibility**
 
-<img width="624" alt="Screenshot 2024-12-06 at 11 24 53 AM" src="https://github.com/user-attachments/assets/01dce4fc-9bec-4eb8-b1aa-03d368049acc">
+![image](https://github.com/user-attachments/assets/90ec8935-23aa-433c-be7e-e5c3a636c985)
 
 **Query:** _SELECT MEAN(WindSpeed), MEAN(visibility) FROM data GROUP BY time(1m)_
    
@@ -123,7 +123,7 @@ https://github.com/user-attachments/assets/caf65f87-5998-4232-a1ce-6ba291b9cb60
 
 **Day vs Night Comparison of Heat Index**
 
-<img width="627" alt="Screenshot 2024-12-06 at 11 55 03 AM" src="https://github.com/user-attachments/assets/e698bcad-586b-4195-859a-050057882144">
+![image](https://github.com/user-attachments/assets/215b7e51-36e0-42ba-b345-b7249d30941b)
 
 **Query:** _SELECT MEAN(HeatIndex) FROM data GROUP BY DayNight_
    
@@ -135,7 +135,7 @@ https://github.com/user-attachments/assets/caf65f87-5998-4232-a1ce-6ba291b9cb60
    
 **Average dew point over time**
 
-<img width="625" alt="Screenshot 2024-12-06 at 12 02 29 PM" src="https://github.com/user-attachments/assets/d3883e3f-5eb8-4e47-aef6-8e9baf67d3d0">
+![image](https://github.com/user-attachments/assets/998fc5b4-ff20-486c-8ccd-2dc76db7d8d6)
 
 **Query:** _SELECT MEAN("DewPoint") AS "avg_dew_point" FROM "data" GROUP BY time(1m)_
    
@@ -147,7 +147,7 @@ https://github.com/user-attachments/assets/caf65f87-5998-4232-a1ce-6ba291b9cb60
 
  **Maximum and minimum temperatures over time**
 
- <img width="614" alt="Screenshot 2024-12-06 at 12 02 47 PM" src="https://github.com/user-attachments/assets/a38edf4e-157b-48f1-b9be-1d06d581f50c">
+ ![image](https://github.com/user-attachments/assets/90fa57eb-db21-4174-90af-45a65750d61e)
 
  **Query:** _SELECT MAX("temperature") AS "max_temp", MIN("temperature") AS "min_temp" FROM "data" GROUP BY time(1m) FILL(null)_
    
@@ -170,7 +170,7 @@ https://github.com/user-attachments/assets/caf65f87-5998-4232-a1ce-6ba291b9cb60
 10. What is the average Wind chill for each month?
 **Average Wind Chill by Month**
 
-<img width="627" alt="Screenshot 2024-12-06 at 12 22 52 PM" src="https://github.com/user-attachments/assets/4b38a24d-77fd-4c00-bf3e-27c54c13e784">
+![image](https://github.com/user-attachments/assets/5fdc4c5c-5a1f-44e2-aa0e-f31b0d38c6be)
 
 **Query:** _SELECT MEAN(windchill) FROM data GROUP BY month_
    
