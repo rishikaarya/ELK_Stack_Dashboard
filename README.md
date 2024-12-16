@@ -159,7 +159,7 @@ https://github.com/user-attachments/assets/caf65f87-5998-4232-a1ce-6ba291b9cb60
 
 **Average UV index by UV description**
 
-<img width="629" alt="Screenshot 2024-12-06 at 12 15 01 PM" src="https://github.com/user-attachments/assets/226cb485-9f7d-4a8b-9521-6e7663dda233">
+![WhatsApp Image 2024-12-16 at 11 39 52 PM-11](https://github.com/user-attachments/assets/8adb72bc-82e6-44f5-90be-868969e042a2)
 
 **Query:** _SELECT MAX(uvIndex) FROM data GROUP BY uvDesc_
    
