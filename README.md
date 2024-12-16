@@ -178,6 +178,15 @@ https://github.com/user-attachments/assets/caf65f87-5998-4232-a1ce-6ba291b9cb60
 
 **Insights:** The chart shows UV Index averages, with "Extreme" at 12.2, "Very High" at 9.07, and "High" at 6.61, posing significant risks. "Moderate" (3.87) and "Low" (0.294) indicate lower risks, highlighting the need for precautions during high UV levels in Nagpur, reflecting a seasonal warming trend as the months progress, which aligns with the transition from winter to spring. The rising wind chill values reflect increasing temperatures or decreasing wind speeds, contributing to less chilling conditions.
 
+11. What is the average temperature for different humidity levels?
+**Average temperature for different humidity levels**
+
+![image](https://github.com/user-attachments/assets/b29009ce-b46b-427a-8acc-f3b859d8c209)
+   
+**Observation:** The stacked bar chart suggests that humidity levels between 26% and 30% align with higher average temperatures. This may indicate that higher humidity leads to more retained heat.
+
+**Insights:** The temperature fluctuates slightly, peaking around 16:40 before dipping again at 16:45, indicating minor variations within a stable range. The stacked bars reveal that higher humidity levels, particularly between 26% and 30%, contribute significantly to the observed temperatures, suggesting that increased humidity may lead to greater heat retention.
+
 ### MANAGERIAL IMPLICATION 
 
 **1. Weather-Dependent Operational Adjustments:** High variability in temperatures, dew point, and wind chill suggests the need for dynamic operational planning, especially for outdoor activities. For example, when the heat index is high, it's essential to implement safety measures like hydration and rest breaks for workers exposed to the elements.
