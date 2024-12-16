@@ -155,9 +155,9 @@ https://github.com/user-attachments/assets/caf65f87-5998-4232-a1ce-6ba291b9cb60
 
 **Insights:** The chart shows fluctuations in maximum and minimum temperatures over time. Maximum temperatures consistently peak above 100°F, while minimum temperatures range between 70°F and 90°F. The variations indicate significant thermal oscillations, likely driven by environmental and meteorological factors
 
-9. What is the average UV index for each UV description category?
+9. What is the count of UV index for each UV description category?
 
-**Average UV index by UV description**
+**Count of UV index by UV description**
 
 ![WhatsApp Image 2024-12-16 at 11 39 52 PM-11](https://github.com/user-attachments/assets/8adb72bc-82e6-44f5-90be-868969e042a2)
 
